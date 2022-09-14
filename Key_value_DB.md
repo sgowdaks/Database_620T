@@ -29,7 +29,7 @@ people = [id, name, email]
 * `GET id1, id2, id3` -> get with comma seperated is not possible
 * `SET person-id3 id3|Garrett|garrett@physics.edu` 
 * `SET person-id2 id2|Waren|waren@bald.beautiful` 
-* `SET person-id2 ids|Halim|Halim.com`` 
+* `SET person-id2 ids|Halim|Halim.com`
 * `SET event-id4 sleep|2022-09-16|id2,id3`
 * `SET event-id5 seaver 50th|2022-09-06|id1, id2, id3`
 * `KEY *` -> "person id3", "event-id4", "id2", "id3", "id1", "id4", "id5", "event-id5", "person id1", "person id2"
