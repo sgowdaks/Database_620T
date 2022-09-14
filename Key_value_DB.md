@@ -39,6 +39,7 @@ people = [id, name, email]
 * `DEL id2`
 * `DEL id3`
 * `KEYS *` -> "event-id4", "event-id5", "person id3", "person id1", "person id2" (now we know which are all the event and which all are people)
+* 
 
 
 
