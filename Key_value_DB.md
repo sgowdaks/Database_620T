@@ -22,7 +22,9 @@ people = [id, name, email]
 ## people 
 * `SET id4 sleep|2022-09-16|id2,id3`
 * `GET id4` -> "sleep|2022-09-16|id2,id3"
-* * `KEY *` -> "id1", "id3", "id2" , "id4"
+* `KEY *` -> "id1", "id3", "id2" , "id4"
+* `SET id5` -> "seaver 50th|2022-09-06|id1, id2, id3"
+* `KEY *` -> "id1", "id3", "id2" , "id4", "id5"
 
 
 
